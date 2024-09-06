@@ -1,104 +1,148 @@
 @font-face {
-        font-family: monospace;
+    font-family: 'CaskaydiaCove NFM', monospace;
+    src: url('https://fonts.googleapis.com/css2?family=CaskaydiaCove+NFM&display=swap');
 }
-
 * {
-        padding: 0;
-        margin: 0;
+    padding: 0;
+    margin: 0;
 }
-
 html,
 body {
-        height: 100%;
-        width: 100%;
+    height: 100%;
+    width: 100%;
 }
-
 body {
-        min-width: 23rem;
-        font-family: monospace;
-        display: table;
-        background-color: #1e1e21;
+    min-width: 23rem;
+    font-family: monospace;
+    display: table;
+    background-color: #1e1e21;
 }
-
 body {
-        max-width: 1080px;
-        margin: 0 auto !important;
-        float: none !important;
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
 }
-
 #container {
-        display: table-cell;
-        vertical-align: middle;
-        text-align: center;
-        padding: 1em;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 1em;
 }
-
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-        #container {
-                width: 812px
-        }
+    #container {
+        width: 812px
+    }
 }
-
 #inner {
-        display: inline-block;
-        padding: 1rem;
+    display: inline-block;
+    padding: 1rem;
 }
-
 #inner>p {
-        display: block;
-        font-size: 1rem;
-        padding: 0.3rem 0;
+    display: block;
+    font-size: 1rem;
+    padding: 0.3rem 0;
 }
-
 ul {
-        display: inline-block;
-        list-style-type: none;
-        padding: 0.6rem 0 0.3rem 0;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.6rem 0 0.3rem 0;
 }
-
-
 .iphone-vid {
-        border-radius: 8px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-
-
 .gist-data {
-        max-height: 300px;
-        overflow-y: scroll;
+    max-height: 300px;
+    overflow-y: scroll;
 }
-
 #footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
-
 li.home {
-        list-style: none;
-        margin: 0 0.3rem;
-        float: left;
+    list-style: none;
+    margin: 0 0.3rem;
+    float: left;
 }
-
 li.home>a {
-        color: #ffffff;
-        font-size: 1.3rem;
-        letter-spacing: 0.1em;
-        text-decoration: none;
-        display: block;
-        padding: 0.9rem 1rem;
-        align-content: center;
+    color: #ffffff;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    display: block;
+    padding: 0.9rem 1rem;
+    align-content: center;
 }
-
 li.home>a:hover {
-        background-color: #333333;
+    background-color: #333333;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styles for Markdown content */
+#markdown-content {
+    color: #d4d1c9;
+}
+
+#markdown-content h1 {
+    color: #fbfffe;
+    margin-bottom: 0.5rem;
+}
+
+#markdown-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles for in-text links */
+#markdown-content p a {
+    color: #d4d1c9;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#markdown-content p a:hover {
+    color: #7ab8ff;
+    text-decoration: underline;
+}
+
+/* Styles for social media links */
+#markdown-content > ul:last-of-type {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+#markdown-content > ul:last-of-type li {
+    margin: 0 0.3rem;
+}
+
+#markdown-content > ul:last-of-type a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.6rem 1rem; /* Decreased top padding */
+    transition: background-color 0.3s;
+}
+
+#markdown-content > ul:last-of-type a:hover {
+    background-color: #333333;
+    transition: background-color 0.3s;
+    border-radius: 4px;
 }
 
 
-html {
-        scroll-behavior: smooth;
+/* Profile picture styling */
+#profile_pic {
+    width: 17%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
