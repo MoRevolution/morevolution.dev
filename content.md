@@ -1,6 +1,6 @@
 # Hi there, I'm Motti 👋
 
-I'm a junior at [WashU](https://www.google.com/search?q=washu), studying Data Science and continuing to a 1-year Master's in Computer Science (specific focus TBD).
+I'm a junior studying Data Science at [WashU](https://www.google.com/search?q=washu).
 
 I work at Deere as Data Analyst/Data Engineer (part-time), and I contribute to [SocialNLP research](https://github.com/NLP-in-the-Social-Sciences) under [Dr.Labiba Jahan](https://www.smu.edu/lyle/departments/cs/people/faculty/labiba-jahan), but I'm currently on a short sabbatical.
 
