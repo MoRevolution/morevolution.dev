@@ -1,11 +1,8 @@
 # Hi there, I'm Motti 👋
 
-I'm a junior studying Data Science at [WashU](https://www.google.com/search?q=washu).
+🎓 Junior @ [WashU](https://www.google.com/search?q=washu) | Analytics @Deere + Incoming Intern @Microsoft (Xbox Analytics Infra & ML)
 
-
-I work at Deere as Data Analyst/Data Engineer (part-time), and I contribute to [SocialNLP research](https://github.com/NLP-in-the-Social-Sciences) under [Dr.Labiba Jahan](https://www.smu.edu/lyle/departments/cs/people/faculty/labiba-jahan), but I'm currently on a short sabbatical.
-
-- [Github](https://github.com/morevolution) 
-- [Linkedin](https://www.linkedin.com/in/morevolution) 
-- [Email](mailto:k.motti@wustl.edu)
-- [Meet with me](https://calendly.com/morevolution)
+- [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/morevolution)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/morevolution)
+- [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:k.motti@wustl.edu)
+- [![Meet with me](https://img.shields.io/badge/Meet%20with%20me-0078D4?style=for-the-badge&logo=calendly&logoColor=white)](https://calendly.com/morevolution)
