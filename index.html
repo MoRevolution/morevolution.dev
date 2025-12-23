@@ -22,13 +22,12 @@
             <div id="markdown-content"></div>
         </div>
     </div>
-    <script src="markdown-it.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         fetch('content.md')
             .then(response => response.text())
             .then(markdown => {
-                const md = window.markdownit();
-                document.getElementById('markdown-content').innerHTML = md.render(markdown);
+                document.getElementById('markdown-content').innerHTML = marked.parse(markdown);
             });
     </script>
 </body>

@@ -6,23 +6,22 @@
     padding: 0;
     margin: 0;
 }
-html,
-body {
+html {
     height: 100%;
     width: 100%;
+    background-color: #1d1d1c;
 }
 body {
-    min-width: 23rem;
+    min-height: 100%;
+    width: 100%;
     font-family: monospace;
     display: table;
-    background-color: #1e1e21;
-}
-body {
-    max-width: 1080px;
-    margin: 0 auto !important;
-    float: none !important;
+    background-color: #1d1d1c;
+    margin: 0;
 }
 #container {
+    max-width: 1080px;
+    margin: 0 auto;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
