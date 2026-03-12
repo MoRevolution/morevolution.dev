@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /nys
+
+Sitemap: https://morevolution.dev/sitemap.xml
