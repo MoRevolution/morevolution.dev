@@ -1,0 +1,45 @@
+:root {
+	color-scheme: dark;
+	--bg: #1d1d1c;
+	--fg: #e9e9ee;
+	--text: #d4d1c9;
+	--heading: #fbfffe;
+	--muted: #a7a7b4;
+	--border: #232434;
+	--link-hover: #7ab8ff;
+	--nav-hover: #333333;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	background-color: var(--bg);
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+	width: 100%;
+	font-family: 'JetBrains Mono', monospace;
+	background-color: var(--bg);
+	color: var(--text);
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	color: var(--text);
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+a:hover {
+	color: var(--link-hover);
+}
