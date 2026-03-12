@@ -10,7 +10,7 @@ title: About
 
 # About me
 
-Hey! I'm Motti — a senior at WashU studying CS. I build tools for developers and have worked on data/ML infrastructure at Deere, Microsoft, and Northern Trust.
+Hey! I'm Motti — I study CS and Statistics at [WashU](https://www.google.com/search?q=WashU). I like building things for people who build things and I've worked on data/ML infrastructure at Deere, Microsoft, and Northern Trust.
 
 When I'm not staring at a screen, I climb, bike, and read ([Goodreads](https://www.goodreads.com/user/show/125001655-morevolution) — infrequently updated, but I'll try).
 
