@@ -18,7 +18,8 @@ const config = {
 			strict: true
 		}),
 		prerender: {
-			entries: ['*']
+			entries: ['*'],
+			handleUnseenRoutes: 'ignore'
 		}
 	},
 	vitePlugin: {
