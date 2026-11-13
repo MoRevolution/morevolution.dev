@@ -8,21 +8,77 @@ title: About
 
 <div class="about">
 
+<div class="intro">
+<div>
+
 # About me
 
-Hey! I'm Motti — I study CS and Statistics at [WashU](https://www.google.com/search?q=WashU). I like building things for people who build things and I've worked on data/ML infrastructure at Deere, Microsoft, and Northern Trust.
+Hey! I'm Motti, a CS grad student @ [WashU](https://www.google.com/search?q=WashU) doing fun stuff with coding theory.
 
-When I'm not staring at a screen, I climb, bike, and read ([Goodreads](https://www.goodreads.com/user/show/125001655-morevolution) — infrequently updated, but I'll try).
+I build infra and dev tools, mostly because I love making someone's work feel more fun. I've done data/ML infra at Deere, Microsoft, and Northern Trust.
 
-Wanna chat? [Email me](mailto:k.motti@wustl.edu) or [book time](https://calendly.com/morevolution).
+Off-screen I climb, bike, and read ([Goodreads](https://www.goodreads.com/user/show/125001655-morevolution)).
 
+</div>
+
+<img class="me" src="/img/motti.webp" alt="Me holding up a pack of Minecraft playing cards, wearing a 'Hello my name is Motti' sticker" />
+</div>
+
+<details class="goodies">
+	<summary>a few other things I like</summary>
+	<ul>
+		<li><strong>tools I'd fight for:</strong> <a href="https://astral.sh/">astral</a> (uv &amp; ty 🔥) · <a href="https://www.nushell.sh/">nushell</a> · <a href="https://github.com/ajeetdsouza/zoxide">zoxide</a> · <a href="https://github.com/junegunn/fzf">fzf</a> · <a href="https://www.raycast.com/">raycast</a> · <a href="https://qalculate.github.io/">Qalc</a></li>
+		<li><strong>reads I loved:</strong> on <a href="https://morevolution.raindrop.page/stuff-i-ve-loved-68356925">Raindrop</a></li>
+		<li><strong>dev setup:</strong> a <a href="https://github.com/MoRevolution/dev">nushell setup script</a> (RIP local envs 😔)</li>
+		<li><strong>psst:</strong> the kid on the home page is Eric, from Dr. Seuss's <em>The King's Stilts</em>. He keeps a schedule.</li>
+	</ul>
+</details>
+
+Love meeting new people! [Say hi](mailto:k.motti@wustl.edu) or [grab a spot on my cal](https://cal.com/morevolution).
 
 </div>
 
 <style>
 	.about {
-		max-width: 640px;
-		line-height: 1.7;
+		max-width: 780px;
+		width: 100%;
+		line-height: 1.8;
+	}
+
+	.intro {
+		display: grid;
+		grid-template-columns: 1fr 210px;
+		gap: 2.5rem;
+		align-items: center;
+		margin-bottom: 1.5rem;
+	}
+
+	/* A print pinned to the page, on the same cream paper as Eric's sticker. */
+	.me {
+		width: 100%;
+		padding: 7px;
+		background: #f3ede0;
+		border-radius: 4px;
+		rotate: 2.5deg;
+		box-shadow: 0 12px 30px rgb(0 0 0 / 0.45);
+		transition: rotate 0.3s ease;
+	}
+
+	.me:hover {
+		rotate: 0deg;
+	}
+
+	@media (max-width: 640px) {
+		.intro {
+			grid-template-columns: 1fr;
+			gap: 1.5rem;
+		}
+
+		.me {
+			order: -1;
+			width: 170px;
+			justify-self: center;
+		}
 	}
 
 	.about :global(h1) {
@@ -46,5 +102,43 @@ Wanna chat? [Email me](mailto:k.motti@wustl.edu) or [book time](https://calendly
 	.about :global(a:hover) {
 		color: var(--link-hover);
 		text-decoration-color: var(--link-hover);
+	}
+
+	/* A thin Cat-in-the-Hat stripe down the side. */
+	.goodies {
+		margin: 2rem 0;
+		padding-left: 1.2rem;
+		border-left: 3px solid;
+		border-image: repeating-linear-gradient(rgb(200 53 43 / 0.7) 0 10px, rgb(243 237 224 / 0.5) 10px 20px) 3;
+	}
+
+	.goodies summary {
+		cursor: pointer;
+		list-style: none;
+		color: var(--heading);
+		font-style: italic;
+	}
+
+	.goodies summary::-webkit-details-marker {
+		display: none;
+	}
+
+	.goodies summary::after {
+		content: ' ▸';
+		display: inline-block;
+		font-style: normal;
+		transition: rotate 0.2s;
+	}
+
+	.goodies[open] summary::after {
+		rotate: 90deg;
+	}
+
+	.goodies ul {
+		margin-top: 0.9rem;
+		padding-left: 1.2rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
 	}
 </style>
