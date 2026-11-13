@@ -3,11 +3,11 @@
 </script>
 
 <svelte:head>
-	<title>Blog — Motti</title>
+	<title>Notes — Motti</title>
 </svelte:head>
 
-<div class="blog-index">
-	<h1>Blog</h1>
+<div class="notes-index">
+	<h1>Notes</h1>
 
 	{#if data.posts.length === 0}
 		<p class="empty">Nothing here yet — check back soon.</p>
@@ -15,9 +15,9 @@
 		<ul>
 			{#each data.posts as post}
 				<li>
-					<a href="/blog/{post.slug}">
+					<a href="/notes/{post.slug}">
 						<span class="post-title">{post.title}</span>
-						<span class="post-date">{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+						<span class="post-date">{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' })}</span>
 					</a>
 				</li>
 			{/each}
@@ -26,7 +26,7 @@
 </div>
 
 <style>
-	.blog-index {
+	.notes-index {
 		max-width: 640px;
 		width: 100%;
 	}

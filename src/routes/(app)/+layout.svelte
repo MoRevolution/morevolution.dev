@@ -9,8 +9,8 @@
 <nav>
 	<a href="/">home</a>
 	<a href="/about">about</a>
-	{#if data.hasBlogPosts}
-		<a href="/blog">blog</a>
+	{#if data.hasNotes}
+		<a href="/notes">notes</a>
 	{/if}
 </nav>
 
