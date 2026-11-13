@@ -15,7 +15,7 @@ title: About
 
 Hey! I'm Motti, a CS grad student @ [WashU](https://www.google.com/search?q=WashU) doing fun stuff with coding theory.
 
-I build infra and dev tools, mostly because I love making someone's work feel more fun. I've done data/ML infra at Deere, Microsoft, and Northern Trust.
+I build infra and dev tools, mostly because I love making people more excited about their work. I've been lucky to do so during my time at Deere, Xbox, and Northern Trust, alongside some awesome folks I now call friends.
 
 Off-screen I climb, bike, and read ([Goodreads](https://www.goodreads.com/user/show/125001655-morevolution)).
 
